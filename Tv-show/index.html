@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="tvshow">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+
+    <base target="_blank">
+
+    <title>TV show</title>
+
+    <!-- <link rel="icon" sizes="192x192" href="src/images/webrtc-icon-192x192.png"> -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="assets/owl.carousel.min.css">    
+    <link rel="stylesheet" href="assets/style.css"/>
+
+    <style> 
+    </style>
+</head>
+
+<body id="bkg">
+<div id="container">
+    <div id = "header">
+        
+        <img id="close-search-w" src = "assets_tv_show_detail/close-search-w.svg" style="float:right" onclick="closemenu()">
+        <img id="hamburgerico" src = "assets/hamburger.png" style="float:right" onclick="openmenu()">
+
+        <div class="title">
+            <h1 style="margin-bottom:0; margin-top: 0;">Penny Dreadful</h1>
+            <!-- <img src = "assets_tv_show_detail/penny-dreadful.svg"> -->
+            <!-- <img src = "assets_tv_show_detail/cienc.svg"> -->
+            <p style="font-size:20px; margin:0"></p>
+        </div>
+    </div>
+    <div id = "season">
+            <div class="tab">
+                    <button class="tablinks" onclick="openSeason(event, 't1')" id="defaultOpenSeason">T1</button>
+                    <button class="tablinks" onclick="openSeason(event, 't2')">T2</button>
+                    <button class="tablinks" onclick="openSeason(event, 't3')">T3</button>
+                  </div>
+                <div id = "tabcontent">
+                  <!-- Tab content -->
+                  <div id="t1" class="tabcontent">
+                        
+                        <div class="episode"  onclick="openEpisode('0', 't1')">
+                            <img src="assets_tv_show_detail/play-small-player-w.svg" style="float:right">
+                            <p style="margin:9px" class="epititle">1 </p>
+                            <div class="epicontent" style="display: none">
+                                <img src="">
+                                <p class="synopsis"></p>
+                            </div>
+                        </div>
+                         <div class="episode"  onclick="openEpisode('1', 't1')">
+                            <img src="assets_tv_show_detail/play-small-player-w.svg" style="float:right">
+                            <p style="margin:9px" class="epititle">2 </p>
+                            <div class="epicontent" style="display: none">
+                                <img src="">
+                                <p class="synopsis"></p>
+                            </div>
+                        </div>
+                        <div class="episode"  onclick="openEpisode('2', 't1')">
+                            <img src="assets_tv_show_detail/play-small-player-w.svg" style="float:right">
+                            <p style="margin:9px" class="epititle">3 </p>
+                            <div class="epicontent" style="display: none">
+                                <img src="">
+                                <p class="synopsis"></p>
+                            </div>
+                        </div>
+                        <div class="episode"  onclick="openEpisode('3', 't1')">
+                            <img src="assets_tv_show_detail/play-small-player-w.svg" style="float:right">
+                            <p style="margin:9px" class="epititle">4 </p>
+                            <div class="epicontent" style="display: none">
+                                <img src="">
+                                <p class="synopsis"></p>
+                            </div>
+                        </div>
+                  </div>
+                  
+                  <div id="t2" class="tabcontent">
+                        <div class="episode"  onclick="openEpisode('4', 't2')">
+                            <img src="assets_tv_show_detail/play-small-player-w.svg" style="float:right">
+                            <p style="margin:9px" class="epititle">1 </p>
+                            <div class="epicontent" style="display: none">
+                                <img src="">
+                                <p class="synopsis"></p>
+                            </div>
+                        </div>
+                        <div class="episode"  onclick="openEpisode('5', 't2')">
+                            <img src="assets_tv_show_detail/play-small-player-w.svg" style="float:right">
+                            <p style="margin:9px" class="epititle">2 </p>
+                            <div class="epicontent" style="display: none">
+                                <img src="">
+                                <p class="synopsis"></p>
+                            </div>
+                        </div>
+                        <div class="episode"  onclick="openEpisode('6', 't2')">
+                            <img src="assets_tv_show_detail/play-small-player-w.svg" style="float:right">
+                            <p style="margin:9px" class="epititle">3 </p>
+                            <div class="epicontent" style="display: none">
+                                <img src="">
+                                <p class="synopsis"></p>
+                            </div>
+                        </div>
+                        <div class="episode"  onclick="openEpisode('7', 't2')">
+                            <img src="assets_tv_show_detail/play-small-player-w.svg" style="float:right">
+                            <p style="margin:9px" class="epititle">4 </p>
+                            <div class="epicontent" style="display: none">
+                                <img src="">
+                                <p class="synopsis"></p>
+                            </div>
+                        </div>
+                  </div>
+                  <div id="t3" class="tabcontent">
+                  </div>
+                </div>
+    </div>
+    <div id = "footer">
+        
+        <div style="padding:8px 45px">
+            
+            <div class="tab1">
+                <button class="tablinks1" onclick="openfooter(event, 'general')" id="defaultOpen">GENERAL</button>
+                <button class="tablinks1" onclick="openfooter(event, 'elenco')" style="margin-left:50px">ELENCO</button>
+                <button class="tablinks1" onclick="openfooter(event, 'premios')" style="margin-left:50px">PRINCIPLES PREMIOS</button>
+                <img src = "assets_tv_show_detail/logo-telecine.svg" style="float:right">
+            </div>
+            
+            <div id="general" class="tabcontent1">
+                <div class="g-left" style="width:40%; display: inline-block;">
+                    <div class="g-icon" style="width:25%">
+                        <img src="assets_tv_show_detail/add-gray-s.svg">
+                        <p>Mi Lista</p>
+                    </div>
+                    <div class="g-icon" style="width: 25%">
+                        <img src="assets_tv_show_detail/sad-gray-w.svg">
+                        <p>Evaluar</p>
+                    </div>
+                    <div class="g-icon" style="width:25%">
+                        <img src="assets_tv_show_detail/rec-gray-s.svg">
+                        <p>Grabar</p>
+                    </div>
+                    <div class="g-icon" style="width: 25%">
+                        <img src="assets_tv_show_detail/share-gray-s.svg">
+                        <p>Compartir</p>
+                    </div>
+                </div>
+                <div id="synopse">
+                    <p style="font-size:18px">SINOPSE</p>
+                    <p></p>
+                </div>
+            </div>
+            
+            <div id="elenco" class="tabcontent1">
+                <div id="owl-demo" class="owl-carousel">
+                    <div class="item link"> Your Content </div>
+                    <div class="item link"> Your Content </div>
+                    <div class="item link"> Your Content </div>
+                    <div class="item link"> Your Content </div>
+                    <div class="item link"> Your Content </div>
+                    <div class="item link"> Your Content </div>
+                    <div class="item link"> Your Content </div>
+                    <div class="item link"> Your Content </div>
+                    <div class="item link"> Your Content </div>
+                    <div class="item link"> Your Content </div>
+                </div>
+            </div>
+            
+            <div id="premios" class="tabcontent1">
+                <h3>PRINCIPLES PREMIOS</h3>
+                <p>PRINCIPLES PREMIOS PRINCIPLES PREMIOS PRINCIPLES PREMIOS PRINCIPLES PREMIOS PRINCIPLES PREMIOS PRINCIPLES PREMIOS PRINCIPLES PREMIOS PRINCIPLES PREMIOS</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="assets/owl.carousel.min.js"></script>
+<script src = "assets/action.js"></script>
+</body>
+</html>

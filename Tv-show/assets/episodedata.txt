@@ -1,0 +1,74 @@
+[
+    {
+        "Duration":53,
+        "EpisodeNumber":1,
+        "ID":"EPI-01",
+        "Image":"https://occ-0-894-1123.1.nflxso.net/art/e0e90/292975320f88a9f3fc741c132d0ec2ac20ce0e90.webp",
+        "SeasonNumber":1,
+        "Synopsis":"Londres, 1891. A polícia investiga uma série de assassinatos, mas Sir Malcolm Murray e a bela Vanessa Ives sabem que há algo mais sombrio por trás de tudo.",
+        "Title":"Trabalho Noturno"  
+    },
+    {
+        "Duration":56,
+        "EpisodeNumber":2,
+        "ID":"EPI-02",
+        "Image":"https://occ-0-894-1123.1.nflxso.net/art/7b23c/f2a507d45fe0faa3716b7744dbefdb815c77b23c.webp",
+        "SeasonNumber":1,
+        "Synopsis":"Vanessa e Sir Malcolm vão a uma festa na casa do egiptólogo Sir Ferdinand Lyle e encontram o belo e enigmático Dorian Gray.",
+        "Title":"Sessão Espírita"
+    },null,
+    {   
+        "Duration":48,
+        "EpisodeNumber":3,
+        "ID":"EPI-03",
+        "Image":"https://occ-0-894-1123.1.nflxso.net/art/4535e/74af6d7d64b7afbbadfa1398e1fab55835d4535e.webp",
+        "SeasonNumber":1,
+        "Synopsis":"O Dr. Frankenstein enfrenta seu passado. Vanessa tem uma visão de Mina, levando o grupo a capturar Fenton, servo de um vampiro.",
+        "Title":"Ressurreição"
+    },
+    {
+        "Duration":60,
+        "EpisodeNumber":4,
+        "ID":"EPI-04",
+        "Image":"https://occ-0-894-1123.1.nflxso.net/art/bd269/1e6473de6bc46cc6c1e2314a10fd4439d9abd269.webp",
+        "SeasonNumber":1,
+        "Synopsis":"Vanessa fica cada vez mais fascinada com Dorian Gray. Van Helsing e Frankenstein tentam encontrar uma cura para a doença da filha de Sir Malcolm.",
+        "Title":"Submundo"
+    },
+    {   
+        "Duration":55, 
+        "EpisodeNumber":1,
+        "ID":"EPI-05",
+        "Image":"https://occ-0-894-1123.1.nflxso.net/art/4b022/b6278bbf42354f7a78e9a200602fa2dc1354b022.webp",
+        "SeasonNumber":2,
+        "Synopsis":"Ethan sente que deve ir embora de Londres. Dr. Frankenstein tenta ressuscitar Brona. Sir Malcolm descobre seu lado maligno ao perseguir Vanessa.",
+        "Title":"Um novo inferno"
+    },
+    {
+        "Duration":53,
+        "EpisodeNumber":2,
+        "ID":"EPI-06",
+        "Image":"https://occ-0-894-1123.1.nflxso.net/art/fe74c/9971baf587a521a516eb3b7861a2d3b13d8fe74c.webp",
+        "SeasonNumber":2,
+        "Synopsis":"Assombrada pelas bruxas, Vanessa busca conforto em Sir Malcolm. O inspetor Rusk, da Scotland Yard, procura o único sobrevivente de um massacre.",
+        "Title":"Verbis diablo"
+    },
+    {
+        "Duration":58,
+        "EpisodeNumber":3,
+        "ID":"EPI-07",
+        "Image":"https://occ-0-894-1123.1.nflxso.net/art/25801/97b22d0f6e5cd243e3c33107b02f02a794b25801.webp",
+        "SeasonNumber":2,
+        "Synopsis":"Em um flashback, Vanessa conhece uma mulher que a ensina como aproveitar seus poderes e que faz um alerta sobre os perigos que a perseguem.",
+        "Title":"As noturnas"
+    },
+    {
+        "Duration":51,
+        "EpisodeNumber":4,
+        "ID":"EPI-08",
+        "Image":"https://occ-0-894-1123.1.nflxso.net/art/48f7a/08089fc092e43c6756983bffdf048b12c8c48f7a.webp",
+        "SeasonNumber":2,
+        "Synopsis":"Lyle revela que as relíquias contam uma história perturbadora. O inspetor Rusk conversa com o sobrevivente do ataque.",
+        "Title":"Espíritos malignos em lugares celestiais"
+    }
+]
